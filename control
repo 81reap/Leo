@@ -1,9 +1,10 @@
 Package: com.hax0rdoge.leo
 Name: Leo
 Depends: mobilesubstrate
-Version: 0.0.1
+Conflicts: com.hax0rdoge.webscrollin, com.hax0rdoge.onehanded, com.fpt.onehanded
+Version: 0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: Prayag Bhakar
-Author: Prayag Bhakar
+Description: Compilation of many different tweaks.
+Maintainer: Prayag Bhakar <p.bhakar.work@gmail.com>
+Author: Prayag Bhakar (Hax0rDoge) <p.bhakar.work@gmail.com>
 Section: Tweaks
