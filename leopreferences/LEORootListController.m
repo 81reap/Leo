@@ -16,6 +16,54 @@
 
 @end
 
+@implementation LEOiOSListController
+
+- (NSArray *)specifiers {
+	if (!_specifiers) {
+		_specifiers = [[self loadSpecifiersFromPlistName:@"iOS" target:self] retain];
+	}
+
+	return _specifiers;
+}
+
+@end
+
+@implementation LEOAppStoreListController
+
+- (NSArray *)specifiers {
+	if (!_specifiers) {
+		_specifiers = [[self loadSpecifiersFromPlistName:@"AppStore" target:self] retain];
+	}
+
+	return _specifiers;
+}
+
+@end
+
+@implementation LEOClockListController
+
+- (NSArray *)specifiers {
+	if (!_specifiers) {
+		_specifiers = [[self loadSpecifiersFromPlistName:@"Clock" target:self] retain];
+	}
+
+	return _specifiers;
+}
+
+@end
+
+@implementation LEOCydiaListController
+
+- (NSArray *)specifiers {
+	if (!_specifiers) {
+		_specifiers = [[self loadSpecifiersFromPlistName:@"Cydia" target:self] retain];
+	}
+
+	return _specifiers;
+}
+
+@end
+
 @implementation LEOSafariListController
 
 - (NSArray *)specifiers {

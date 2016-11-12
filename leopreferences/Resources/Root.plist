@@ -18,6 +18,54 @@
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>detail</key>
+			<string>LEOiOSListController</string>
+			<key>icon</key>
+			<string>ios.png</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>iOS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>LEOAppStoreListController</string>
+			<key>icon</key>
+			<string>appstore.png</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>App Store</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>LEOClockListController</string>
+			<key>icon</key>
+			<string>clock.png</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Clock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>LEOCydiaListController</string>
+			<key>icon</key>
+			<string>cydia.png</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Cydia</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
 			<string>LEOSafariListController</string>
 			<key>icon</key>
 			<string>safari.png</string>
@@ -25,6 +73,14 @@
 			<true/>
 			<key>label</key>
 			<string>Safari</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apps</string>
+			<key>footerText</key>
+			<string>Change the behaviour of App Store apps.</string>
 		</dict>
 		<dict>
 			<key>cell</key>
