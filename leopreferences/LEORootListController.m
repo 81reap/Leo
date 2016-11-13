@@ -28,6 +28,18 @@
 
 @end
 
+@implementation LEOKeyboardListController
+
+-(NSArray *)specifiers {
+	if (!_specifiers) {
+		_specifiers = [[self loadSpecifiersFromPlistName:@"Keyboard" target:self] retain];
+	}
+
+	return _specifiers;
+}
+
+@end
+
 @implementation LEOLockScreenListController
 
 -(NSArray *)specifiers {

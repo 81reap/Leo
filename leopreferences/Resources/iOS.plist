@@ -14,6 +14,16 @@
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>detail</key>
+			<string>LEOKeyboardListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Keyboard</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
 			<string>LEOLockScreenListController</string>
 			<key>isController</key>
 			<true/>

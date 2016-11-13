@@ -8,6 +8,10 @@
 
 @end
 
+@interface LEOKeyboardListController : PSListController
+
+@end
+
 @interface LEOLockScreenListController : PSListController
 
 @end
