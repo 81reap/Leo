@@ -28,6 +28,18 @@
 
 @end
 
+@implementation LEOLockScreenListController
+
+-(NSArray *)specifiers {
+	if (!_specifiers) {
+		_specifiers = [[self loadSpecifiersFromPlistName:@"LockScreen" target:self] retain];
+	}
+
+	return _specifiers;
+}
+
+@end
+
 @implementation LEOAppStoreListController
 
 - (NSArray *)specifiers {

@@ -6,6 +6,20 @@
 	<string>iOS</string>
 	<key>items</key>
 	<array>
+		<dict>
+	    <key>cell</key>
+	    <string>PSGroupCell</string>
+	  </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>LEOLockScreenListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Lock Screen</string>
+		</dict>
 	</array>
 </dict>
 </plist>

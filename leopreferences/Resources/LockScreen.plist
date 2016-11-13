@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Lock Screen</string>
+	<key>items</key>
+	<array>
+    <dict>
+      <key>cell</key>
+      <string>PSGroupCell</string>
+      <key>footerText</key>
+      <string>Changes the "slide to unlock" text on the lock screen.</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSSwitchCell</string>
+      <key>defaults</key>
+      <string>com.hax0rdoge.leo</string>
+      <key>key</key>
+      <string>slideToUnlockEnabled</string>
+      <key>label</key>
+      <string>Custom Slide to Unlock Text</string>
+      <key>default</key>
+      <false/>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSEditTextCell</string>
+      <key>detail</key>
+      <string>PSDetailController</string>
+      <key>defaults</key>
+      <string>com.hax0rdoge.leo</string>
+      <key>key</key>
+      <string>slideToUnlockText</string>
+      <key>label</key>
+      <string>Text</string>
+      <key>placeholder</key>
+      <string>slide to unlock</string>
+    </dict>
+	</array>
+</dict>
+</plist>

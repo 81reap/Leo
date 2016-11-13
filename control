@@ -1,7 +1,7 @@
 Package: com.hax0rdoge.leo
 Name: Leo
 Depends: mobilesubstrate
-Conflicts: com.hax0rdoge.webscrollin, com.chpwn.webscrollian, net.tateu.webscrollian, com.hax0rdoge.onehanded, com.fpt.onehanded
+Conflicts: com.hax0rdoge.webscrollin, com.chpwn.webscrollian, net.tateu.webscrollian, com.hax0rdoge.onehanded, com.fpt.onehanded, com.hax0rdoge.slidetounlock
 Version: 0.1
 Architecture: iphoneos-arm
 Description: Compilation of many different tweaks.

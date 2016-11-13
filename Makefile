@@ -1,6 +1,5 @@
 ARCHS = arm64 armv7s armv7
 TARGET = iphone:clang:latest:9.0
-GO_EASY_ON_ME = 1
 
 TWEAK_NAME = Leo
 Leo_FILES = Tweak.xm
