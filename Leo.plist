@@ -1,1 +1,1 @@
-{ Filter = { Bundles = ( "com.apple.UIKit", "com.apple.WebCore" ); }; }
+{ Filter = { Bundles = ( "com.apple.UIKit", "com.apple.WebCore", "com.apple.springboard", "com.apple.PreferencesUI" ); }; }

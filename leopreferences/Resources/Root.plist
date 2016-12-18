@@ -66,6 +66,18 @@
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>detail</key>
+			<string>LEOPreferencesListController</string>
+			<key>icon</key>
+			<string>preferences.png</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Preferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
 			<string>LEOSafariListController</string>
 			<key>icon</key>
 			<string>safari.png</string>

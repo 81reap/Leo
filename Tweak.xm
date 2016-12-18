@@ -31,10 +31,34 @@
 
 %end
 
+%hook SBLockScreenViewController
+
+#define SSB_ENABLED_PREF @"samestatusEnabled"
+
+- (long long)statusBarStyle {
+  NSDictionary *prefs = [[NSDictionary alloc] initWithContentsOfFile:PREFERENCES_PATH];
+  return ([[prefs valueForKey: SSB_ENABLED_PREF] boolValue]) ? 0.0 : %orig ;
+}
+
+%end
+
+// Preferences
+
+%hook PSUIPrefsListController
+
+#define SCM_ENABLED_PREF @"carrierEnabled"
+
+- (BOOL)_showCarrier {
+  NSDictionary *prefs = [[NSDictionary alloc] initWithContentsOfFile:PREFERENCES_PATH];
+  return ([[prefs valueForKey: SCM_ENABLED_PREF] boolValue]) ? true : %orig ;
+}
+
+%end
+
 //  Safari
 
 %hook UIWebBrowserView
-
+#import <objc/runtime.h>
 #define WBS_ENABLED_PREF @"webscrollinEnabled"
 
 + (double)preferredScrollDecelerationFactor {

@@ -32,6 +32,10 @@
 
 @end
 
+@interface LEOPreferencesListController : PSListController
+
+@end
+
 @interface LEOCreditsListController : PSListController
 
 @end

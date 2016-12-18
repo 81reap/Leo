@@ -18,7 +18,7 @@
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>icon</key>
-			<string>twitter.png</string>
+			<string>src/twitter.png</string>
 			<key>label</key>
 			<string>Twitter (@Hax0rDoge)</string>
 		</dict>

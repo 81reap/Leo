@@ -7,6 +7,14 @@
 	<key>items</key>
 	<array>
 		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Apply Changes (Respring)</string>
+		</dict>
+		<dict>
 	    <key>cell</key>
 	    <string>PSGroupCell</string>
 	  </dict>
