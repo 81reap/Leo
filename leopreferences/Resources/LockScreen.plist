@@ -56,6 +56,36 @@
       <key>default</key>
       <false/>
     </dict>
+		<dict>
+      <key>cell</key>
+      <string>PSGroupCell</string>
+      <key>footerText</key>
+      <string>Hides elements on the lockscreen; they still work though.</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSSwitchCell</string>
+      <key>defaults</key>
+      <string>com.hax0rdoge.leo</string>
+      <key>key</key>
+      <string>hideCCEnabled</string>
+      <key>label</key>
+      <string>Hide Control Center</string>
+      <key>default</key>
+      <false/>
+    </dict>
+	<dict>
+      <key>cell</key>
+      <string>PSSwitchCell</string>
+      <key>defaults</key>
+      <string>com.hax0rdoge.leo</string>
+      <key>key</key>
+      <string>hideNCEnabled</string>
+      <key>label</key>
+      <string>Hide Notification Center</string>
+      <key>default</key>
+      <false/>
+    </dict>
 	</array>
 </dict>
 </plist>

@@ -29,6 +29,28 @@
   }
 }
 
+#define LEO_HIDE_CC_CHEVRON @"hideCCEnabled"
+
+- (void)setBottomGrabberHidden:(_Bool)arg1 forRequester:(id)arg2{
+  NSDictionary *prefs = [[NSDictionary alloc] initWithContentsOfFile:PREFERENCES_PATH];
+  return ([[prefs valueForKey: LEO_HIDE_CC_CHEVRON] boolValue]) ? %orig(YES,arg2) : %orig(arg1,arg2) ;
+}
+- (_Bool)isBottomGrabberHidden{
+  NSDictionary *prefs = [[NSDictionary alloc] initWithContentsOfFile:PREFERENCES_PATH];
+  return ([[prefs valueForKey: LEO_HIDE_CC_CHEVRON] boolValue]) ? YES : %orig ;
+}
+
+#define LEO_HIDE_NC_CHEVRON @"hideNCEnabled"
+
+- (void)setTopGrabberHidden:(_Bool)arg1 forRequester:(id)arg2{
+  NSDictionary *prefs = [[NSDictionary alloc] initWithContentsOfFile:PREFERENCES_PATH];
+	return ([[prefs valueForKey: LEO_HIDE_NC_CHEVRON] boolValue]) ? %orig(YES,arg2) : %orig(arg1,arg2) ;
+}
+- (_Bool)isTopGrabberHidden{
+  NSDictionary *prefs = [[NSDictionary alloc] initWithContentsOfFile:PREFERENCES_PATH];
+	return ([[prefs valueForKey: LEO_HIDE_NC_CHEVRON] boolValue]) ? YES : %orig ;
+}
+
 %end
 
 %hook SBLockScreenViewController
